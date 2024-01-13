@@ -1,0 +1,209 @@
+/* Global styles */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* container styling */
+
+.container {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.containernextPlayer {
+    max-width: 600px;
+    max-height: max-content;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+
+/* Heading styles */
+
+h1 {
+    color: #333333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Start section styles */
+
+#startSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Label styles */
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+
+/* Input and select styles */
+
+input,
+select {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+/* Input and select focus styles */
+
+input:focus,
+select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+
+/* Button styles */
+
+button {
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Button hover styles */
+
+button:hover {
+    background-color: #45a049;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add player button styles */
+
+#addPlayerButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Add player button hover styles */
+
+#addPlayerButton:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Game section styles */
+
+#gameSection {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Truth and Dare button styles */
+
+#truthButton,
+#dareButton {
+    background-color: #28a745;
+    color: white;
+    padding: 14px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Truth and Dare button hover styles */
+
+#truthButton:hover,
+#dareButton:hover {
+    background-color: #218838;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Output styles */
+
+#output {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    min-height: 120px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Player name display styles */
+
+#playerNameDisplay {
+    color: #28a745;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Next player button styles */
+
+#nextPlayerButton {
+    background-color: #ff7bcc;
+    color: white;
+    padding: 10px 20px;
+    /* Adjusted padding for a smaller size */
+    font-size: 16px;
+    /* Adjusted font size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Next player button hover styles */
+
+#nextPlayerButton:hover {
+    background-color: #eb2143;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
